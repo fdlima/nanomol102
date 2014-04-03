@@ -1,5 +1,5 @@
 #!/bin/sh
-#Objetivo: Mostrar frames para calculo DFT EPR
+#Objetivo: add H a pentoses 
 #Programador: Filipe, Rafael
 
 # Parte 1: add hydrogens 
