@@ -3,12 +3,14 @@
 #Programador: Filipe, Rafael
 
 # Parte 1: add hydrogens 
+
 a=`pwd`
 
 rm add_hydrogens*
 
 touch add_hydrogens_ok.pml
 
+# "_cie" é a tag dos arquivos selecionados
 seqa=`ls -lrt | grep -a "_cie" | awk -F " " '{print $9}' | sed "s/.pdb//g" `
 
 for i in  ${seqa} ;
